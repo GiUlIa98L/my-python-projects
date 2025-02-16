@@ -24,7 +24,7 @@ def recursive_mergeSort(lst):
     left_result = recursive_mergeSort(left)
     right_result = recursive_mergeSort(right)
 
-    # sort
+    # so
     merged = []
     k, j = 0, 0
     # if left and right lists have still elements for comparison
